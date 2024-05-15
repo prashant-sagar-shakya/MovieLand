@@ -9,7 +9,7 @@ const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
 
       <div>
         <img
-          src={Poster !== "N/A" ? Poster : "https://placehold.co/400"}
+          src={Poster !== "N/A" ? Poster : "https://placehold.co/400x600"}
           alt={Title}
         />
       </div>
